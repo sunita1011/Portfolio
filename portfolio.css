@@ -1,0 +1,187 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    background-color: rgb(87, 82, 82);
+    color:white;
+    border:6px solid rgb(46, 43, 43);
+    border-radius: 24px;
+}
+body{
+    background-color: rgb(75, 73, 73);
+}
+.nav h1{
+    color: rgb(34, 122, 138);
+}
+.nav p{
+    font-size: 24px;
+}
+.nav h3{
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: rgb(113, 84, 139);
+}
+.image img{
+    border-radius: 50%;
+    position: relative;
+    left:200px
+}
+.image{
+    display: flex;
+   gap:400px;
+   position: relative;
+   top:60px
+   
+}
+.name{
+    text-align:center;
+    position: relative;
+    top:-200px;
+    line-height: 30px;
+}
+.name p{
+    font-size: 17px;
+    color: white;
+}
+.name p a{
+    text-decoration: none;
+}
+.name h1{
+    font-size:40px;
+    color: blueviolet;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button h3{
+  
+    border:2px solid black;
+    border-radius: 10px;
+    background-color:rgb(155, 206, 189)
+}
+.button h3:hover{
+    background-color: rgb(171, 151, 192);
+}
+.button h2:hover{
+    background-color: rgb(81, 44, 88);
+}
+.button h2{
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: rgb(177, 172, 172)
+}
+.icon{
+    font-size: 25px;
+}
+#facebook{
+    color: #3b5998;
+}
+
+#insta{
+color: #e1306c
+}
+#linkedin{
+    color:#0077B5
+}
+#snapchat{
+   color:#fffc00;
+}
+.rate{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:-160px;
+}
+#number{
+    font-size: 50px;
+    font-weight:bold;
+    color:rgb(211, 202, 202)
+}
+#alpha{
+    position: relative;
+    top:-70px;
+    left:70px;
+    font-size: larger;
+    color: rgb(202, 146, 195);
+}
+.image1 img{
+    height:290px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    left:970px;
+    top:-90px;
+}
+.desc{
+    position: relative;
+    top:-400px;
+    left:100px;
+}
+.desc h1{
+    color: white;
+}
+.desc p{
+    color: rgb(168, 211, 197);
+    font-size: 17px;
+}
+.button1 h3{
+  height: 30px;
+  width: 70px;
+  border:2px solid black;
+  background-color: rgb(153, 84, 199);
+  text-align: center;
+
+}
+.button1 h3:hover{
+    background-color: #e1306c;
+}
+.projname h1{
+    text-align: center;
+    color:rgb(86, 173, 173);
+    font-size: 40px;
+    position: relative;
+    left:-50px;
+}
+.box{
+    height: 200px;
+    width:800px;
+   display:flex;
+    margin: 50px;
+}
+.box1 {
+    display: flex;
+    gap:170px;
+    text-align: center;
+}
+.box1 div{
+height: 200px;
+width:200px;
+border:2px solid black;
+margin:12px;
+text-align: center;
+border-radius: 10%;
+}
+.box1 div:hover{
+ background-color: rgb(108, 101, 129);
+}
+.project{
+    position: relative;
+    top:-300px;
+}
+.box1 p{
+    color: rgb(138, 161, 161);
+}
+.box1 h4{
+    height: 30px;
+    width:100px;
+    border:2px solid black;
+    background-color: rgb(194, 219, 219);
+    position: relative;
+    left:30px;
+    border-radius: 12%;
+}
